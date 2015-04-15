@@ -1,0 +1,16 @@
+_site/*
+
+# SASS
+.sass-cache/*
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.ruby-version
+.ruby-gemset
+
+# IDE
+*.sublime-project
+*.sublime-workspace

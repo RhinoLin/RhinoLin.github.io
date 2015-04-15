@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="main-content">
+    <div class="posts">
+      <ul>
+        {% for post in site.posts %}
+        <li>
+          <span class="date">{{ post.date | date:"%B %d, %Y" }}</span>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
